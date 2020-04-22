@@ -146,6 +146,17 @@ span{
 
 }
 
+
+img.pikapika {
+animation: anime1 1s ease -2s infinite alternate;
+}
+
+@keyframes anime1 {
+0% {filter: brightness(1);}
+100% {filter: brightness(1.5);}
+}
+
+
 p {
   line-height: 2.2em;
 }
@@ -919,6 +930,11 @@ span.pink {
 .gm {color:#101010;}
 .sabato {color:#D2143F;}
 /*PC*/
+.mitsu {color:#661d1d;}
+.daisuke {color:#66541d;}
+.flan {color:#0a0a66;}
+.yukari {color:#0a6647;}
+/*PC*/
 .yukito {color:#325d80;}
 .tohu {color:#778899;}
 
@@ -929,17 +945,18 @@ span.pink {
     border: solid 1px #404980;/*線*/
     border-radius: 10px;/*角の丸み*/
   width: 80%;
+    box-shadow: 2px 2px 4px gray;
 }
 
 .box p {
     margin: 0; 
     padding: 0;
-    font-size: 90%;
 }
 
 .box span {
+    margin: 0; 
+    padding: 0;
     font-size: 90%;
-  display:block;
 }
 
 
@@ -950,12 +967,13 @@ span.pink {
     border: solid 1px #dd9977;/*線*/
     border-radius: 10px;/*角の丸み*/
   width: 80%;
+    box-shadow: 2px 2px 4px gray;
+
 }
 
 .box2 p {
     margin: 0; 
     padding: 0;
-    font-size: 90%;
     color: #663333;
 
 }
@@ -1212,4 +1230,3 @@ dl.chara-01 dd {
   .only-pc {
     display: none;
   }
-
