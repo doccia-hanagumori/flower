@@ -1170,6 +1170,69 @@ dl.book-01 dd {
 
 
 
+.book2 {
+  display: -webkit-box;
+  display: flex;
+  width: 80%;
+  max-width: 800px;
+  margin: 80px auto;
+}
+
+
+.book2 .book2__image {
+        text-align: right;
+  margin: 0 20px;
+  -webkit-box-flex: 0;
+          flex: 0 0 40%;
+}
+
+.book2 .book2__discription h4 {
+  margin-top: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .book2 {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+  }
+  .book2:nth-child(2n+1) {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+  }
+  .book2:not(:last-of-type) {
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 60px;
+  }
+  .book2 .book2__image {
+    margin: 0 auto 20px;
+    max-width: 300px;
+  }
+}
+
+dl.book2-01 {
+  margin: 20px 0;
+}
+
+dl.book2-01 dt {
+  width: 100px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+dl.book2-01 dd {
+  width: calc(100% - 100px);
+  margin: 0 0 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .only-pc {
+    display: none;
+  }
+}
+
 .chara {
   display: -webkit-box;
   display: flex;
