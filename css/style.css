@@ -931,15 +931,15 @@ span.pink {
 .sabato {color:#D2143F;}
 /*PC*/
 .mitsu {color:#661d1d;}
-.daisuke {color:#66541d;}
-.flan {color:#0a0a66;}
-.yukari {color:#0a6647;}
+.daisuke {color:#80630d;}
+.flan {color:#0f0f99;}
+.yukari {color:#0d8059;}
 /*PC*/
 .yukito {color:#325d80;}
 .tohu {color:#778899;}
 
 .box {
-  padding: 10px 15px;
+  padding: 5px 10px;
   	margin: 1.0em auto;
   background: rgba(150, 150, 150, 0.2);
     border: solid 1px #404980;/*線*/
@@ -956,34 +956,81 @@ span.pink {
 .box span {
     margin: 0; 
     padding: 0;
-    font-size: 90%;
+    font-size: 10.5pt;
 }
 
 
 .box2 {
-  padding: 10px 15px;
+  padding: 5px 10px;
   	margin: 1.0em auto;
-  background: rgba(250, 250, 200, 0.8);
-    border: solid 1px #dd9977;/*線*/
+  background: #f2e6ff;
+    border: solid 1px #615c66;/*線*/
     border-radius: 10px;/*角の丸み*/
   width: 80%;
     box-shadow: 2px 2px 4px gray;
-
 }
 
 .box2 p {
     margin: 0; 
     padding: 0;
     color: #663333;
-
 }
 
 .box2 span {
     margin: 0; 
     padding: 0;
-    font-size: 90%;
+    font-size: 10.5pt;
 }
 
+
+
+@media screen and (max-width: 767px) {
+
+.box {
+  padding: 3px 5px;
+  	margin: 1.0em auto;
+  background: rgba(150, 150, 150, 0.2);
+    border: solid 1px #404980;/*線*/
+    border-radius: 10px;/*角の丸み*/
+  width: 80%;
+    box-shadow: 2px 2px 4px gray;
+}
+
+.box p {
+    margin: 0; 
+    padding: 0;
+}
+
+.box span {
+    margin: 0; 
+    padding: 0;
+    font-size: 9pt;
+}
+
+
+.box2 {
+  padding: 3px 5px;
+  	margin: 1.0em auto;
+  background: #f2e6ff;
+    border: solid 1px #615c66;/*線*/
+    border-radius: 10px;/*角の丸み*/
+  width: 80%;
+    box-shadow: 2px 2px 4px gray;
+}
+
+.box2 p {
+    margin: 0; 
+    padding: 0;
+    color: #663333;
+}
+
+.box2 span {
+    margin: 0; 
+    padding: 0;
+    font-size: 9pt;
+}
+
+}
 
 blockquote {
   background: rgba(0, 0, 0, 0.3);
