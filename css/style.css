@@ -157,6 +157,35 @@ animation: anime1 1s ease -2s infinite alternate;
 }
 
 
+
+/*ヘッダー*/
+.Header {
+	position: fixed;	/* フッターを固定する */
+	top: 0;	/* 上部から配置の基準位置を決める */ 
+	left: 0;	/* 左から配置の基準位置を決める */ 
+	width: 300px;	/* フッターの横幅を指定する */
+	height: 4px;	/* フッターの高さを指定する */
+	padding:20px;	/* フッター内側の余白を指定する(上下左右) */  
+	padding-bottom:40px;	/* フッター内側の余白を指定する(上下左右) */  
+	background: linear-gradient(to right, white, rgba(255,255,255,0));/* フッターの背景色を指定する */
+	color: #737980;	/* フッターのフォントの色を指定する */
+}	
+
+@media screen and (max-width: 767px) {
+
+.Header {
+	position: fixed;	/* フッターを固定する */
+	top: 0;	/* 上部から配置の基準位置を決める */ 
+	left: 0;	/* 左から配置の基準位置を決める */ 
+	width: 300px;	/* フッターの横幅を指定する */
+	height: 4px;	/* フッターの高さを指定する */
+	padding:10px;	/* フッター内側の余白を指定する(上下左右) */  
+	padding-bottom:20px;
+	background: linear-gradient(to right, white, rgba(255,255,255,0));/* フッターの背景色を指定する */
+	color: #737980;	/* フッターのフォントの色を指定する */
+}}
+
+
 p {
   line-height: 2.2em;
 }
@@ -928,6 +957,7 @@ span.pink {
 /*文字色*/
 .dammy {color:#101010;}
 .gm {color:#101010;}
+.kengaku {color:#888888;}
 .sabato {color:#D2143F;}
 /*PC*/
 .mitsu {color:#661d1d;}
@@ -1088,15 +1118,17 @@ h3.h3-b {
   padding-left: 10px;
 }
 
-ul.li-a {
+
+ul.li-c {
   list-style: square inside;
         margin-top: 0;
         margin-bottom: 0;
 }
 
-ul.li-a li {
+ul.li-c li {
         margin-top: 0;
         margin-bottom: 0;
+
 }
 
 ul.li-b {
@@ -1108,6 +1140,19 @@ ul.li-b {
 ul.li-b li {
         margin-top: 0;
         margin-bottom: 0;
+
+}
+
+ul.li-a {
+  list-style: circle inside;
+          margin-top: 0;
+        margin-bottom: 0;
+}
+
+ul.li-a li {
+        margin-top: 0;
+        margin-bottom: 0;
+
 }
 
 ol.li-a {
