@@ -965,8 +965,17 @@ span.pink {
 .flan {color:#0f0f99;}
 .yukari {color:#0d8059;}
 /*PC*/
-.yukito {color:#325d80;}
 .tohu {color:#778899;}
+
+.discript{
+	margin:10px 10px;
+    border: solid;
+    border-width: 0px 0px 0px 4px;
+	font-weight: bold;
+    padding: 10px;
+    color: #454b4d;
+    border-color: #5e858c;
+}
 
 .box {
   padding: 5px 10px;
