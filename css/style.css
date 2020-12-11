@@ -102,6 +102,12 @@ a:hover {
   color: #b2d4ce;
 }
 
+a.sdou:link{ color:#661d1d;}
+a.sdou:visited{ color:#661d1d;}
+a.sdou:active{ color:#661d1d;}
+a.sdou:hover{ color:#661d1d;}
+
+
 a img:hover {
   -webkit-filter: brightness(120%);
           filter: brightness(120%);
@@ -272,6 +278,19 @@ h3 {
 @media screen and (max-width: 767px) {
   h3 {
     font-size: 110%;
+  }
+}
+
+h4 {
+  font-size: 110%;
+  display: block;
+  margin: 10px auto;
+  color: #313536;
+}
+
+@media screen and (max-width: 767px) {
+  h4 {
+    font-size: 100%;
   }
 }
 
@@ -1127,6 +1146,11 @@ h3.h3-b {
   padding-left: 10px;
 }
 
+h4.h4-a {
+  padding: 5 0 5px;
+  background: rgba(0, 0, 0, 0.2);
+
+}
 
 ul.li-c {
   list-style: square inside;
