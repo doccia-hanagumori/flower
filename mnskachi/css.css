@@ -1,0 +1,313 @@
+
+        @charset "utf-8";
+
+        /* http://meyerweb.com/eric/tools/css/reset/ 
+           v2.0 | 20110126
+           License: none (public domain)
+        */
+
+        html, body, div, span, applet, object, iframe,
+        h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+        a, abbr, acronym, address, big, cite, code,
+        del, dfn, em, img, ins, kbd, q, s, samp,
+        small, strike, strong, sub, sup, tt, var,
+        b, u, i, center,
+        dl, dt, dd, ol, ul, li,
+        fieldset, form, label, legend,
+        table, caption, tbody, tfoot, thead, tr, th, td,
+        article, aside, canvas, details, embed, 
+        figure, figcaption, footer, header, hgroup, 
+        menu, nav, output, ruby, section, summary,
+        time, mark, audio, video {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            font: inherit;
+            vertical-align: baseline;
+        }
+        /* HTML5 display-role reset for older browsers */
+        article, aside, details, figcaption, figure,
+        footer, header, hgroup, menu, nav, section {
+            display: block;
+        }
+        body {
+            line-height: 1.2;
+            font-size:0.875rem;
+            color:rgb(16, 16, 16);
+            background:#ffffff;
+            text-shadow: 1px 1px 1px rgba( 0, 0, 0, 0.15 );
+        }
+
+        .p {
+            word-break: break-word;
+        }
+
+        .background {
+            width: 100%;
+            background-size: cover;
+            height: 100%;
+            position: fixed;
+            background: linear-gradient(to bottom, #daf3ef 0%, #92afe4 100%);
+        }
+        ol, ul {
+            list-style: none;
+        }
+        blockquote, q {
+            quotes: none;
+        }
+        blockquote:before, blockquote:after,
+        q:before, q:after {
+            content: '';
+            content: none;
+        }
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+
+        .system {
+            color: rgb(255, 255, 255);
+        }
+
+        .system + .system {
+            margin-bottom:15px;
+        }
+
+        .body {
+            background:rgb(230, 248, 255);
+            max-width:700px;
+            margin:auto;
+            padding:20px 30px 80px;
+            box-sizing:border-box;
+            position: relative;
+        }
+
+        .body-w {
+            background:rgb(230, 248, 255);
+            max-width:800px;
+            margin:auto;
+            padding:50px 30px 200px;
+            box-sizing:border-box;
+            position: relative;
+        }
+
+        .main {
+            display: flex;
+        }
+
+        .main:not(:last-child) {
+            margin-bottom:15px;
+        }
+
+        .ic {
+            margin-right: 15px;
+        }
+
+        .ic img {
+            max-width:40px;
+        }
+
+        body {
+            font-family: 'メイリオ', Meiryo,'ヒラギノ角ゴシック','Hiragino Sans','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+        }
+
+        .footer {
+            position: fixed;	/* フッターを固定する */
+            bottom: 0;	/* 上部から配置の基準位置を決める */ 
+            left: 0;	/* 左から配置の基準位置を決める */ 
+            right:0;
+            height:4px;	/* フッターの高さを指定する */
+            padding-left: 30%;
+            padding-right: 30%;
+            padding-top: 5px;
+            padding-bottom:25px;	/* フッター内側の余白を指定する(上下左右) */  
+            background: #82a4d6;/* フッターの背景色を指定する */
+            color: #fff;	/* フッターのフォントの色を指定する */
+            display: flex;
+            justify-content: space-around;
+        }
+
+        img {
+            max-width:100%;
+            height:auto;
+        }
+
+        b {
+            font-weight:bold;
+        }
+
+        .box {
+            padding: 5px 10px;
+                margin: 1.0em auto;
+            background: rgba(150, 150, 150, 0.2);
+              border: solid 1px #404980;/*線*/
+              border-radius: 10px;/*角の丸み*/
+            width: 80%;
+              box-shadow: 2px 2px 4px gray;
+          }
+
+        .box2 {
+            padding: 10px 10px;
+                margin: 1.0em auto;
+            background: #f2e6ff;
+              border: solid 1px #615c66;/*線*/
+              border-radius: 10px;/*角の丸み*/
+            width: 80%;
+              box-shadow: 2px 2px 4px gray;
+        }
+        .index {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .index .body {
+            min-width: 70vw;
+            width:100%;
+            text-align: center;
+            padding:40px 15px;
+        }
+
+        .list_link {
+            color:rgb(16, 16, 16);
+            font-size:16px;
+            padding:10px 5px;
+            margin:2px 0;
+            display: block;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5 {
+          font-family: "Sawarabi Mincho", sans-serif;
+        
+        }
+        
+        .index_h1 {
+            font-size: 180%;
+            display: block;
+            margin: 40px auto;
+            text-align: center;
+            color: #313536;
+        }
+
+        .index_h2 {
+            font-size: 140%;
+            display: block;
+            margin: 20px auto;
+            text-align: center;
+            color: #313536;
+        }
+        
+        h3 {
+            font-size: 130%;
+            display: block;
+            margin: 20px auto;
+            color: #313536;
+          }
+          
+          @media screen and (max-width: 767px) {
+            h3 {
+              font-size: 110%;
+            }
+          }
+
+          h3.h3-a {
+            padding: 0 0 5px;
+            border-bottom: 1px solid #313536;
+          }
+          
+          h3.h3-b {
+            border-left: 5px solid #313536;
+            border-bottom: 1px solid #313536;
+            padding-left: 10px;
+          }
+
+        .list + .index_h2 {
+            margin-top:20px;
+        }
+
+        .list {
+            display: flex;
+            justify-content: center;
+        }
+
+        .mitsu {
+            color: rgb(102, 29, 29);
+        }
+        .gm {
+            color: rgb(16, 16, 16);
+        }
+
+        .hana {
+            display: block;
+            margin: 30px auto;
+            max-width:48px;
+        }
+
+        a:link {
+            color:rgb(16, 16, 16);
+        }
+        a:visited {
+            color:rgb(16, 16, 16)
+        }
+        a:hover {
+            color: #b2d4ce;
+            transition: color 0.5s
+        }
+          
+        .ss {
+            line-height: 1.75;
+            letter-spacing: -0.5px;
+            font-size:0.9rem;
+            color:rgb(16, 16, 16);
+            text-shadow: 1px 1px 1px rgba( 0, 0, 0, 0.15 );
+        }
+
+        .sstxt {
+            display: block;
+            color: #7d9b95;
+            font-size:90%;
+            text-align: center;
+            margin: auto auto 10px;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        summary {
+            cursor: pointer;
+            outline: none;
+            color: transparent;
+        }
+
+        details {
+            transition: .10s;
+        }
+
+        .pict {
+            width:120px;
+            height:120px;
+            object-fit:cover;
+            margin: 5px;
+        }    
+         
+        .pict:hover {
+            filter: brightness(110%) drop-shadow(0px 0px 5px rgba(26, 34, 51, 0.1));
+            transition: all 0.4s;
+        }
+
+        @media screen and (min-width: 641px) {
+
+        }
+
+        @media screen and (max-width: 640px) {
+
+
+        }
+    
